@@ -1,7 +1,7 @@
 import { Button, Select, TextInput } from 'flowbite-react';
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import PostCard from '/client/src/Components/PostCard.jsx';
+import PostCard from '../Components/PostCard.jsx';
 
 export default function Search() {
   const [sidebarData, setSidebarData] = useState({
